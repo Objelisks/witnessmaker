@@ -1,0 +1,40 @@
+body {
+  background-color: #141414;
+}
+
+#title {
+  font-size: 48pt;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+.gridLine {
+  stroke: goldenrod;
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: goldenrod;
+}
+
+.solvingLine {
+  stroke: #ddd;
+  stroke-width: 20px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: #ddd;
+}
+
+.triangleSymbol {
+  fill: #fd0;
+}
+
+.tetrisSymbol {
+  fill: #fd0;
+}
+
+.errorSymbol {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: square;
+  stroke-width: 8px;
+}
